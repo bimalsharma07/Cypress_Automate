@@ -17,13 +17,8 @@ describe('Test E-Commerce', () =>
         cy.get('#a-autoid-0-announce > .a-size-base-plus').click()
                                      }) 
 
-    it('Enter User ID', () => {
-    cy.get('.a-padding-extra-large')
-        .type('vimmal.smith06@gmail.com')
-                                
-             })
-                                                                         
-                                                                         
 
+                                                                         
+                                                
   
 })
