@@ -13,11 +13,15 @@ describe('Test E-Commerce', () =>
         cy.get('#nav-cart').click()
             })
 
-            it('Navigate to the sign In Page', () => {
-                cy.get('#a-autoid-0-announce > .a-size-base-plus').click()
+     it('Navigate to the sign In Page', () => {
+        cy.get('#a-autoid-0-announce > .a-size-base-plus').click()
                                      }) 
 
-
+    it('Enter User ID', () => {
+    cy.get('.a-padding-extra-large')
+        .type('vimmal.smith06@gmail.com')
+                                
+             })
                                                                          
                                                                          
 
