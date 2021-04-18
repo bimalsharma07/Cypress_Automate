@@ -13,7 +13,9 @@ describe('Test E-Commerce', () =>
         cy.get('#nav-cart').click()
             })
 
-
+            it('Navigate to the sign In Page', () => {
+                cy.get('#a-autoid-0-announce > .a-size-base-plus').click()
+                                     }) 
 
 
                                                                          
