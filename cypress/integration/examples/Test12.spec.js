@@ -17,13 +17,10 @@ describe('Test E-Commerce', () =>
         cy.get('#a-autoid-0-announce > .a-size-base-plus').click()
                                      }) 
 
-    it('Navigate to New Account Page', () => {
-        cy.get('#createAccountSubmit').click()
-    })
+   
 
 
   
-                                                                         
-                                                
+                                                                                                          
   
 })
