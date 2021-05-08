@@ -26,7 +26,7 @@ describe('Test E-Commerce', () =>
     cy.get('#ap_email').type('Test123@yopmail.com')
     cy.get('#ap_password').type('Test@12345')
     cy.get('#ap_password_check').type('Testjkj')
-    cy.get('#continue').click()
+
                                 
                                     })   
 
