@@ -17,22 +17,6 @@ describe('Test E-Commerce', () =>
         cy.get('#a-autoid-0-announce > .a-size-base-plus').click()
                                      }) 
 
-    it('Navigate to New Account Page', () => {
-        cy.get('#createAccountSubmit').click()
-        })
-                                
-    it('Create New account', () => {
-    cy.get('#ap_customer_name').type('Tester')
-    cy.get('#ap_email').type('Test123@yopmail.com')
-    cy.get('#ap_password').type('Test@12345')
-    cy.get('#ap_password_check').type('Testjkj')
-    cy.get('#continu').click()
-
-                                
-                                    })   
-
-
-  
-                                                                                                          
+                                                                                                                                        
   
 })
