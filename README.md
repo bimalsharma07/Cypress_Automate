@@ -1,1 +1,1 @@
-" Hi this is my first cypress test !! "
+Cypress tests for simple automation.
