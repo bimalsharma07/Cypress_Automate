@@ -5,7 +5,7 @@ describe('Test E-Commerce', () =>
     })
 
     it('Search a Product', () => {
-        cy.get('#twotabsearchtextbox').type('Shoes')
+        cy.get('#twotabsearchtextbox').type('Nike-Shoes')
         cy.get('#nav-search-submit-button').click()
         })
 
